@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  margin: 22px;
+}
+.left-left {
+  display: flex;
+}
+
+#title {
+  margin-left: 22px;
+  font-size: 25px;
+  font-family: "Righteous", cursive;
+}
+
+.sourceText {
+  margin-top: 100px;
+  width: 400px;
+  height: 220px;
+  border-radius: 15px;
+}
+.top {
+  display: flex;
+  margin-top: 22px;
+  flex: 0.2;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.resultText {
+  margin-left: -220px;
+  margin-top: 100px;
+  width: 400px;
+  height: 210px;
+  border-radius: 15px;
+}
+
+.fa-moon {
+  margin-top: 23px;
+  margin-right: 22px;
+}
+
+.form-check-input {
+  transform: scale(1.2);
+  margin-top: 30px;
+  left: 22px;
+}
+
+.btn {
+  width: 150px;
+  margin-top: 45px;
+}
+
+.top .select {
+  margin-top: 22px;
+  margin-right: 22px;
+}
